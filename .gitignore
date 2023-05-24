@@ -1,0 +1,41 @@
+# Arquivos e diretórios específicos para projetos Java
+/target/
+*.class
+
+# Arquivos de configuração do Eclipse
+.classpath
+.project
+.settings/
+
+# Dependências Maven
+.pio/
+.idea/
+*.iml
+target/
+out/
+
+# Logs
+*.log
+
+# Arquivos de resultados dos testes
+/test-output/
+
+# Arquivos gerados pelo Selenium WebDriver
+geckodriver.log
+geckodriver.log*
+chromedriver.log
+chromedriver.log*
+
+# Arquivos de relatórios
+/*.xml
+/*.html
+
+# Arquivos de capturas de tela
+/*.png
+
+# Arquivos de configuração do Maven
+maven-error.log
+target/
+
+# Cache do Maven
+.mvn/
